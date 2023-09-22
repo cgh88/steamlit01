@@ -13,3 +13,7 @@ st.write("""
 - four
 - five
 """)
+
+code = '''def hello():
+    print("Hello, Streamlit!")'''
+st.code(code, language='python')
